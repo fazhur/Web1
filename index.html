@@ -4,9 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Treloo</title>
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+	<header class="header">
+		<div class="design">
+			<a class="main-link" href="#">Treloo</a>
+			<nav class="header-nav">
+				<a class="header-link" href="#">Review</a>
+				<a class="header-link" href="#">Tips</a>
+				<a class="header-link" href="#">Alerts</a>
+				<a class="header-link" href="#">Blog</a>
+				<button class="blog-button">Sign in</button>
+			</nav>
+			<h1 class="main-big"> Discover Your Life, Travel <br> Where You Want </h1>
+			<p class="main-small"> Would you explore nature paradise in the world, let's find the best <br> destination in the world with us. </p>
+		</div>
+    </header>
+	<main class="main">
+		<div class="searcher-buttons">
+			<button id="flight" class="search-button">Flight</button>
+			<button id="hotel" class="search-button">Hotel</button>
+		</div>
+		<section class="selectors">
+			<section class="data-selectors">
+				<div class="cities">
+					<label for="city">Living From:</label><br>
+					<select name="city" id="city">
+						<option value="city">Dubai</option>
+						<option value="city">Kyiv</option>
+						<option value="city">New-York</option>
+						<option value="city">Berlin</option>
+					</select>
+				</div>
+				<img class="selector-background" src="./img/direction_plane.svg" />
+				<div class="cities">
+					<label for="city">Going to:</label><br>
+					<select name="city" id="city">
+						<option value="city">New-York</option>
+						<option value="city">Dubai</option>
+						<option value="city">Kyiv</option>
+						<option value="city">Berlin</option>
+					</select>
+				</div>
+			</section>
+			<section class="data-selectors">
+				<div class="date">
+					<label for="start">Leave</label>
+					<img class="flight-date" src="./img/plane_leave.svg" /><br>
+					<input type="date" id="start" name="trip-start">
+				</div>
+				<img class="selector-background" src="./img/calendar.svg" />
+				<div class="date">
+					<label for="start">Return</label>
+					<img class="flight-date" src="./img/plane_return.svg" /><br>
+					<input type="date" id="start" name="trip-start">
+				</div>
+			</section>
+			<button class="search">
+			    <svg class="search-icon" viewBox="0 0 24 24">
+					<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+					<path d="M0 0h24v24H0z" fill="none"/>
+				</svg>
+			</button>
+		</section>
+		<section class="offers">
+			<h1 class="offer-header">Special Upcoming Offers</h1>
+			<nav class="offer-nav">
+				<a class="offer-link" href="#">Team</a>
+				<a class="offer-link" href="#">Couple</a>
+				<a class="offer-link" href="#">Family</a>
+			</nav>
+			<section class="offers">
+				<div class="offer">
+					<img class="offer-image" src="./img/offer1.png" />
+					<span class="date">14 FEB 2022</span>
+					<span class="type">Relax</span>
+					<span class="duration">3 Days, 3 Nights</span>
+					<span class="place">Loga See</span>
+					<span class="price">700$/Person</span>
+					<button class="book">Book Now</button>
+				</div>
+				<div class="offer">
+					<img class="offer-image" src="./img/offer2.png" />
+					<span class="date">18 JUN 2022</span>
+					<span class="type">Adventure</span>
+					<span class="duration">4 Days, 3 Nights</span>
+					<span class="place">Ansgar Sheffold</span>
+					<span class="price">400$/Person</span>
+					<button class="book">Book Now</button>
+				</div>
+				<div class="offer">
+					<img class="offer-image" src="./img/offer3.png" />
+					<span class="date">22 DEC 2022</span>
+					<span class="type">Relax</span>
+					<span class="duration">7 Days, 6 Nights</span>
+					<span class="place">Lona X</span>
+					<span class="price">340$/Person</span>
+					<button class="book">Book Now</button>
+				</div>
+			</section>
+		</section>
+		<section class="addvertisement">
+			<img class="add-image" src="./img/addvertisement.png" />
+			<div class="on-photo">300+ DESTINATIONS</div>
+			<div class="on-photo">5000+ TOURITS</div>
+			<div class="on-photo">150+ HOTELS</div>
+			<h1 class="add-header">Travel Any Corner of <br>The World With Us</h1>
+			
+			<p class="add-text">Would you explore nature paradise in the world, let’s find 
+			
+			the best destination in world with us, Would you explore 
+			
+			nature paradise in the world, let’s find the best destination 
+			
+			in world with us. Would you explore nature paradise in the 
+			
+			world, let’s find the best destination in world with us.
+
+			<br>
+			
+			Would you explore nature paradise in the world, let’s find 
+			
+			the best destination in world with us.</p>
+		</section>
+	</main>
 </body>
 </html>

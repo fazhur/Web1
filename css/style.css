@@ -1,0 +1,156 @@
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F5F5F5;
+	}
+.header-nav {
+	text-align: right;
+	width: fit-content;
+	float: right;
+	display: inline;
+}
+.design {
+	padding: 2vh;
+	margin-inline: 2vh;
+	height: 100vh;
+}
+.header-link {
+	text-decoration: none;
+	background-color: none;
+	color: white;
+}
+.main-link {
+	width: fit-content;
+	text-align: left;
+	text-decoration: none; 
+	background-color: none;
+	color: white;
+	font-size: 1.7em;
+}
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+					   rgba(0, 0, 0, 0.5)), url(../img/mountains.jpg); 
+	background-size: cover;
+	height: 100vh;
+}
+.main-big {
+	color: white;
+	margin-top: 10%;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2.5em;
+	line-height: 1.5;
+}
+.main-small {
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.3em;
+	line-height: 1.5;
+}
+.blog-button {
+	border-radius: 10px;
+	background-color: white;
+	color: blue;
+	border: none;
+}
+.header-nav *{
+	margin-left: 2vh;
+	font-size: 1.3em;
+}
+.search-button {
+	border-radius: 10px;
+	border: none;
+	background-color: white;
+	float: left;
+	font-size: 1.3em;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 6vh;
+}
+#flight {
+	background-color: #ADD8E6;
+	background-image: url(../img/flight_button.svg);
+}
+#hotel {
+	background-image: url(../img/hotel_button.svg);
+}
+label {
+	color: grey;
+}
+.searcher-buttons {
+	margin-left: 20vh;
+	margin-top: -10vh;
+	background-color: white;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	width: fit-content;
+	padding: 1em;
+}
+.selectors {
+	background-color: white;
+	margin-left: 20vh;
+	border-radius: 0px 5vh 5vh 5vh;
+	padding: 4vh;
+	width: fit-content;
+	display: inline-block;
+}
+.selectors *{
+	display: inline-block;
+}
+#city {
+	border: none;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.data-selectors {
+	width: fit-content;
+	line-height: 1.8;
+	border: solid;
+	border-color: rgb(211,211,211);
+	border-radius: 10px;
+	display: inline-block;
+	height: fit-content;
+}
+.cities {
+	padding: 1em;
+	display: inline-block;
+}
+.selector-background {
+	border: dashed gray;
+	padding: 0.5em;
+	border-radius: 100%;
+}
+.date {
+	padding: 1em;
+}
+.search {
+	background-color: #318CE7;
+	border: none;
+	border-radius: 15px;
+	width: fit-content;
+}
+.search svg {
+  width: 7vh;
+  height: 7vh;
+  fill: white;
+  padding: 1.5vh;
+}
+.offer-header {
+	margin-top: 8%;
+	text-align: center;
+}
+.offer-nav *{
+	margin-left: 2vh;
+	font-size: 1.3em;
+}
+.offer-link {
+	text-decoration: none;
+	background-color: none;
+	color: black;
+}
+.offer-nav {
+	text-align: center;
+	width: fit-content;
+	display: inline;
+}
