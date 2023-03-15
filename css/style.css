@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #F5F5F5;
 }
 
@@ -241,6 +241,35 @@ label {
     border-radius: 20px;
 }
 
+.offer .place{
+    font-size: larger;
+    font-weight: 600;
+}
+.offer .price{
+    font-size: large;
+    font-weight: 500;
+}
+
+.book{
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 7%;
+    right: 6%;
+    color: cornflowerblue;
+    padding: 2vh;
+    border: none;
+    border-radius: 1em;
+}
+
+.offers .offer{
+    position: relative;
+}
+
+.offers .offer:nth-child(2) .type{
+    background-color: #ADD8E6;
+    color: #318CE7;
+}
+
 .img-and-date {
     display: flex;
     flex-direction: row;
@@ -252,6 +281,7 @@ label {
 
 .img-and-date .date {
     writing-mode: vertical-lr;
+    letter-spacing: 0.5em;
 }
 
 .duration-and-type {
@@ -261,6 +291,7 @@ label {
     align-content: stretch;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 1vh;
 }
 
 .type {
@@ -284,6 +315,7 @@ label {
     align-items: center;
     width: 80%;
     margin-inline: auto;
+    margin-top: 3em;
 }
 
 .addvertisement .images {
@@ -307,11 +339,41 @@ label {
     border-radius: 10px;
     font-size: large;
     width: fit-content;
-    padding: 1.5em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.on-photo *{
+    margin: 2%;
+}
+
+.on-photo h2{
+    color: #318CE7;
+}
+
+.add-image{
+
+    width: -webkit-fill-available;
 }
 
 .addvertisement .text {
-    width: 50%;
+    width: 45%;
+}
+
+button{
+    border: none;
+}
+
+.contact-us{
+    background-color: #318CE7;
+    color: white;
+    border-radius: 0.5em;
+    font-size: x-large;
+    padding: 0.7em;
 }
 
 .rp {
@@ -330,6 +392,8 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .recommended-nav {
@@ -340,6 +404,7 @@ label {
     justify-content: space-evenly;
     align-items: center;
     margin-inline: auto;
+    margin-bottom: 4%;
 }
 
 .recommended-nav .selected {
@@ -358,6 +423,11 @@ label {
 
 .recommended-offers {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5%;
 }
 
 .recommended-offer {
@@ -369,6 +439,8 @@ label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
+
 }
 
 .recommended-offer .stars {
@@ -383,10 +455,34 @@ label {
     justify-content: center;
 }
 
+.recommended-place{
+    font-size: large;
+
+}
+
+.location-container{
+    align-items: center;
+    display: flex;
+}
+
 .reviews {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5em;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.review-arrow{
+    border-radius: 0.5em;
+    border: 2px solid #318CE7;
+    background-color: transparent;
+}
+
+.rot-flip{
+    transform: rotate(180deg);
 }
 
 .actual-reviews {
@@ -404,6 +500,8 @@ label {
     position: relative;
     background-color: white;
     border-radius: 10px;
+    padding-top: 5%;
+    margin-inline: 1%;
 }
 
 .quotes,
@@ -419,6 +517,13 @@ label {
     z-index: 0;
 }
 
+.quotes{
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    position: absolute;
+}
+
 .reviewer {
     background-color: white;
     border-radius: 50%;
@@ -432,17 +537,40 @@ label {
 
 .reviewer .stars {
     position: absolute;
-    transform: translate(25%, 25%);
+    transform: translate(64%, 10%);
     background-color: white;
     padding: 0.2em;
-    border-radius: 0.2em;
+    border-radius: 1em;
     display: flex;
     align-items: center;
+}
+
+.review-text{
+    text-align: center;
+}
+
+.review p{
+    margin-inline: 7%;
+    margin-top: 3%;
+}
+
+.reviewer-name{
+    color: #318CE7;
+}
+
+.review-logo{
+    color: grey;
+}
+
+.review p,.review span, .review div{
+    z-index: 5;
 }
 
 .discount {
     position: relative;
     width: 100%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .discount-image {
@@ -466,4 +594,31 @@ label {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.discount-text{
+    color: white;
+}
+
+.discount-button{
+    background-color: white;
+    border-radius: 1em;
+    color: #318CE7;
+    padding: 1em;
+    font-size: large;
+}
+
+.reserved{
+    color: gray;
+    font-size: medium;
+}
+
+.low-nav{
+
+    gap: 10%;
+    display: inline-flex;
+}
+
+.discount-header{
+    font-size: xx-large
 }
