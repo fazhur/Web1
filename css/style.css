@@ -191,15 +191,26 @@ label {
 .offer-link {
     text-decoration: none;
     background-color: none;
-    color: black;
+    color: gray;
 }
 
+.offer-link:nth-child(1){
+    background-color: #318CE7;
+    border-radius: 7px;
+    padding: 1vh;
+    color: white;
+}
+
+
+
 .offer-nav {
+    margin-top: 3vh;
     text-align: center;
     width: fit-content;
     display: inline;
     background-color: white;
     padding: 1em;
+    border-radius: 20px;
 }
 
 .offers .main-data {
@@ -217,7 +228,8 @@ label {
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
+    margin-top: 2vh;
 }
 
 .offer {
